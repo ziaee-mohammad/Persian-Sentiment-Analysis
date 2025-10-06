@@ -19,19 +19,14 @@ This project uses *Hazm* for Persian text preprocessing and *XGBoost* for machin
 ---
 
 ## 🧩 Project Structur
-Persian-Sentiment-Analysis/
-│
-├── app-mziaee.py               # Main Flask web app
-├── templates/                  # HTML templates for the web interface
-│   └── index.html              # User interface for text input and results
-├── static/                     # Static assets (CSS, JS, images)
-│
-├── vectorizer.pkl              # Saved text vectorizer model
-├── xgb.pkl                     # Trained XGBoost sentiment model
-│
-├── Sentiment_Analysis_of_Snappfood_Comments_by_MZiaee.ipynb   # Notebook with preprocessing & training
-│
-└── README.md                   # Project documentation
+📂 Persian-Sentiment-Analysis/
+ ┣ 📜 app-mziaee.py — Main Flask app
+ ┣ 📂 templates/ — HTML templates for the web UI
+ ┣ 📂 static/ — Static assets (CSS, JS, images)
+ ┣ 📜 vectorizer.pkl — Text vectorizer
+ ┣ 📜 xgb.pkl — Trained XGBoost model
+ ┣ 📜 Sentiment_Analysis_of_Snappfood_Comments_by_MZiaee.ipynb — Notebook (preprocessing & training)
+ ┗ 📜 README.md — Project documentation
 
 🧠 Model Info
 
